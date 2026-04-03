@@ -1,0 +1,93 @@
+/* Admin tweaks (inherits dashboard.css) */
+
+.logo {
+    color: #ff9800;
+}
+
+.actions a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Admin-specific card highlight */
+.card {
+    border-left: 5px solid #2196f3;
+}
+
+/* Table improvements (for loans page later) */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-table th {
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+
+.admin-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Status badges */
+.badge {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+
+.badge.pending { background: orange; }
+.badge.approved { background: green; }
+.badge.paid { background: gray; }
+
+/* Member action buttons */
+.btn-action.edit { background: #2196f3; }
+.btn-action.activate { background: #4caf50; }
+.btn-action.deactivate { background: #ff9800; }
+.btn-action.delete { background: #f44336; }
+
+.btn-action {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    margin-right: 5px;
+    font-size: 0.85em;
+}
+
+.btn-action:hover {
+    opacity: 0.8;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    margin: 15% auto;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.search-box {
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.cards {
+    margin-bottom: 20px;
+}

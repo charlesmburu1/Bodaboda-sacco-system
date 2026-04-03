@@ -1,0 +1,93 @@
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    background: #f4f6f9;
+}
+
+.auth-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+}
+
+.auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.auth-container input:focus {
+    border-color: #ff9800;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255,152,0,0.3);
+}
+
+.auth-container button {
+    width: 100%;
+    padding: 12px;
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.error {
+    background: #ffe5e5;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.success {
+    background: #e6ffed;
+    color: #2e7d32;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.success a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #ff9800;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.success a:hover {
+    text-decoration: underline;
+}
+
+.auth-page .auth-container form .forgot-link {
+    text-align: right;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.auth-page .auth-container form .forgot-link a {
+    font-size: 14px;
+    color: #ff9800;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.auth-page .auth-container form .forgot-link a:hover {
+    color: #e68900;
+    text-decoration: underline;
+}

@@ -1,0 +1,58 @@
+.loan-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.loan-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+/* TABLE */
+.loan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.loan-table th, .loan-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.loan-table th {
+    background: #111;
+    color: white;
+}
+
+/* Status Colors */
+.pending {
+    color: orange;
+    font-weight: bold;
+}
+
+.approved {
+    color: green;
+    font-weight: bold;
+}
+
+.rejected {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+    .loan-table {
+        font-size: 12px;
+    }
+}
